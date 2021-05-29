@@ -36,3 +36,11 @@ img {
 .row_relative {
     position: relative;
 }
+
+.button{
+    color: $dodger-blue-btn;
+    background-color: $color-white;
+    line-height: 55px;
+    padding: 0 70px;
+    border-radius: 20px;
+}

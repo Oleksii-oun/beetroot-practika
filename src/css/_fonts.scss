@@ -1,5 +1,8 @@
-@include fonts($font-default-name, 'raleway-v18-latin-300', 300);
+@include fonts($font-default-name, 'Lato-Light', 300);
 
-@include fonts($font-default-name, 'raleway-v18-latin-700', 700);
+@include fonts($font-default-name, 'lato-v17-latin-regular', 400);
 
-@include fonts($font-default-name, 'raleway-v18-latin-900', 900);
+@include fonts($font-default-name, 'lato-v17-latin-700', 700);
+
+@include fonts($font-default-name, 'lato-v17-latin-900', 900);
+

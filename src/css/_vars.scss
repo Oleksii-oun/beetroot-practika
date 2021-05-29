@@ -1,29 +1,24 @@
-$alto: #ddd;
-$green: green;
-$chambray:#3b5998;
+
 $color-white: white;
 $color-black: #000;
-$grey: #bababa;
-$orange: #ff6033;
+$grey: #5a5a5a;
+$dodger-blue: #3677FD;
 
 $input-border-color: $grey;
 $default-border-radius: 5px;
 
-$facebook-color: $chambray;
-
 $default-border: 1px solid $input-border-color;
 
-$container-width: 1200px;
+$container-width: 1170px;
 $default-gap: 15px;
 
-$body-bg-color: $green;
-$border-color: $alto;
+$body-bg-color: $color-white;
+$border-color: $grey;
 
 $font-folder-path: '../fonts/';
 $folder-image: '../image/';
 
-$font-default-name: 'Raleway';
-$font-secondary-name: 'Roboto';
+$font-default-name: 'Lato';
 
 $follback: Arial,
 Helvetica,
@@ -31,11 +26,10 @@ sans-serif;
 
 $font-dafault: $font-default-name,
 $follback;
-$font-secondary: $font-secondary-name,
-$follback;
 
-$default-font-size: 18px;
-$default-color-text: $color-black;
+$default-font-size: 16px;
+$default-line-height: 2.1875; 
+$default-color-text: $grey;
 
 
 $breack-points: ("xl": 1200px,

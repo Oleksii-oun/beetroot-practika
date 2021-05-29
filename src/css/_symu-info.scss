@@ -1,4 +1,5 @@
 .overlay-window-symu {
+    display: none;
     background-color: rgba($color-black, 0.85);
     position: fixed;
     left: 0;
@@ -12,10 +13,14 @@
         width: 100%;
         @include position-center;
     }
+
+
+    &_active {
+        display: block;
+    }
 }
 
 .symu-info {
-    display: none;
     max-width: $container-width;
     width: 100%;
     border-radius: 5px;
@@ -65,7 +70,4 @@
         box-shadow: 0 5px 25px $window-text-grey;
     }
 
-    &_active {
-        display: block;
-    }
 }

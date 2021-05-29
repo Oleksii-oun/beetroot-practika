@@ -1,0 +1,46 @@
+.clients {
+    background-color: #f1f8ff;
+    padding: 28px 0 20px;
+    text-align: center;
+    // .clients__block-title
+
+    &__block-title {
+        text-align: center;
+        
+    }
+
+    // .clients__title
+
+    &__title {
+        font-weight: 300;
+        font-family: $font-dafault;
+        color: #3677fd;
+        font-size: 50px;
+        margin-bottom: 90px;
+        
+    }
+
+    // .clients__company
+
+    &__company {
+    
+    }
+
+    // .clients__logo
+
+    &__logo {
+        
+    }
+}
+.container {
+}
+.row {
+}
+.col-3 {
+}
+
+.clients_сenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

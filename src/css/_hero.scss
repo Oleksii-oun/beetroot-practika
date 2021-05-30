@@ -1,0 +1,80 @@
+.hero-block {
+    max-height: 100vh;
+    background: $dodger-blue $default-gardient;
+    padding: 30px 0 5px;
+
+    @include bg-cover("../image/hero-block-bg.png");
+
+    &__circle-hero-block {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: $color-white;
+        margin: 0 auto 50px;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            border-radius: 50%;
+            display: block;
+            background-color: $color-white;
+            opacity: 0.5;
+            position: absolute;
+        }
+        &::before {
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+        }
+        &::after {
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+        }
+    }
+
+    &__title {
+        font-size: 50px;
+        letter-spacing: 1px;
+        line-height: 60px;
+        color: $color-white;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+
+    // .hero-block__message
+
+    &__message {
+        width: 580px;
+        font-size: 16px;
+        color: $color-white;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 auto 78px;
+    }
+
+    // .hero-block__hire-me-btn
+
+    &hero-block__button {
+        margin-bottom: 80px;
+    }
+
+    &button {
+        border: none;
+        color: $dodger-blue-btn;
+        background-color: $color-white;
+        line-height: 55px;
+        padding: 0 70px;
+        border-radius: 20px;
+    }
+
+    &__pointer {
+        text-align: center;
+    }
+}

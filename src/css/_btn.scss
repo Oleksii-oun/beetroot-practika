@@ -1,8 +1,15 @@
-.button{
+.button {
     border: none;
+    font-size: 16px;
     color: $dodger-blue-btn;
     background-color: $color-white;
     line-height: 55px;
     padding: 0 70px;
-    border-radius: 20px;
+    border-radius: 50px;
+
+    @media screen and(max-width: 576px) {
+        font-size: 16px;
+        line-height: 45px;
+        padding: 0 50px;
+    }
 }

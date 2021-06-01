@@ -1,8 +1,10 @@
-
 $color-white: white;
 $color-black: #000;
 $grey: #5a5a5a;
 $dodger-blue: #3677FD;
+$window-red: #de2e45;
+$window-text-grey: #b9bcd1;
+$mercury:#E1E1E1;
 
 $input-border-color: $grey;
 $default-border-radius: 5px;
@@ -14,6 +16,21 @@ $default-gap: 15px;
 
 $body-bg-color: $color-white;
 $border-color: $grey;
+
+//menu
+$border-menu-bottom:$grey;
+$menu-hover-color:$dodger-blue;
+$menu-default-text-color:$grey;
+$menu-icon-color:$grey;
+$color-overlay-menu-window:$color-white;
+$color-overlay-menu:$color-black;
+$color-language-deafult:$grey;
+
+//section about_us color
+$color-section-about-us-bg:$color-white;
+$color-section-about-us-title:$dodger-blue;
+$color-section-about-us-sub-title:$grey;
+
 
 $font-folder-path: '../fonts/';
 $folder-image: '../image/';
@@ -28,7 +45,7 @@ $font-dafault: $font-default-name,
 $follback;
 
 $default-font-size: 16px;
-$default-line-height: 2.1875; 
+$default-line-height: 2.1875;
 $default-color-text: $grey;
 
 

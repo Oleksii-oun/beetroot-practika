@@ -1,0 +1,47 @@
+.footer {
+    background: $dodger-blue $default-gardient;
+    @include bg-cover("../image/hero-block-bg.png");
+
+    &__text {
+        font-size: 48px;
+        color: $color-white;
+        font-weight: 700;
+
+        &_light {
+            font-weight: 300;
+        }
+    }
+
+    &__button-block {
+        position: relative;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+    .footer {
+        &__text {
+            text-align: center;
+        }
+        &__button-block {
+            text-align: center;
+        }
+        &__button {
+            position: relative;
+            transform: translateY(0);
+        }
+    }
+}
+@media screen and(max-width: 992px) {
+    .footer {
+        &__text {
+            font-size: 40px;
+        }
+    }
+}
+@media screen and(max-width: 576px) {
+    .footer {
+        &__text {
+            font-size: 30px;
+        }
+    }
+}

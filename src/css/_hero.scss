@@ -1,0 +1,121 @@
+.hero-block {
+    min-height: 100vh;
+    background: $dodger-blue $default-gardient;
+    padding: 30px 0 5px;
+
+    @include bg-cover("../image/hero-block-bg.png");
+
+    &__circle-hero-block {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: $color-white;
+        margin: 0 auto 50px;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            border-radius: 50%;
+            display: block;
+            background-color: $color-white;
+            opacity: 0.5;
+            position: absolute;
+        }
+
+        &::before {
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+        }
+
+        &::after {
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+        }
+    }
+
+    &__title {
+        font-size: 50px;
+        letter-spacing: 1px;
+        line-height: 60px;
+        color: $color-white;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 42px;
+        text-align: center;
+
+        @media screen and(max-width: 768px) {
+            font-size: 40px;
+        }
+
+        @media screen and(max-width: 576px) {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__message {
+        width: 580px;
+        font-size: 16px;
+        color: $color-white;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 auto 78px;
+
+        @media screen and(max-width: 992px) {
+            margin-bottom: 38px;
+        }
+
+        @media screen and(max-width: 768px) {
+            width: 100%;
+            margin: 0 auto 38px;
+        }
+
+        @media screen and(max-width: 576px) {
+            font-size: 13px;
+            margin: 0 auto 10px;
+        }
+    }
+
+    &__button {
+        margin-bottom: 80px;
+        margin: 0 auto;
+        display: block;
+
+        @media screen and(max-width: 576px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__pointer {
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:576px) {
+    .hero-block {
+        &__circle-hero-block {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: $color-white;
+            margin: 0 auto 50px;
+            position: relative;
+
+            &::before,
+            &::after {
+                content: "";
+                border-radius: 50%;
+                display: block;
+                background-color: $color-white;
+                opacity: 0.5;
+                position: absolute;
+            }
+        }
+    }
+}

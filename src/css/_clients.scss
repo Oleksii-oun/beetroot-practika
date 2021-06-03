@@ -1,0 +1,23 @@
+.clients {
+    background-color: #f1f8ff;
+    padding: 28px 0 20px;
+    text-align: center;
+
+    &__block-title {
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-family: $font-dafault;
+        color: #3677fd;
+        font-size: 50px;
+        margin-bottom: 90px;
+    }
+}
+
+.clients_сenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

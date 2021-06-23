@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    font-size: 16px;
+    color: $dodger-blue-btn;
+    background-color: $color-white;
+    line-height: 55px;
+    padding: 0 70px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: $font-dafault;
+    font-weight: 700;
+
+    @media screen and(max-width: 576px) {
+        line-height: 45px;
+        padding: 0 50px;
+    }
+}

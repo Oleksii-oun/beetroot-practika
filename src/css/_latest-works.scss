@@ -1,0 +1,34 @@
+.latest-work {
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: $dodger-blue;
+        padding-bottom: 100px;
+
+        @media screen and(max-width: 576px) {
+            font-size: 30px;
+        }
+    }
+
+    &__wrapper {
+        background-color: $wild-sand;
+        border-radius: 10px;
+        padding-top: 74.8%;
+        position: relative;
+    }
+
+    &__img {
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__container {
+        padding-bottom: 190px;
+    }
+}
+
